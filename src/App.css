@@ -1,0 +1,66 @@
+.App {
+  background-color: white;
+  min-height: 80vh;
+  width: 500px;
+  margin: 35px auto;
+  
+}
+body {
+  background-image: url(body.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.crossed {
+  text-decoration: line-through 3px red;
+  background-color: #fff3b6;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 50px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+.btn {
+  padding: 3px;
+  border-radius: 40px;
+  border: none;
+  width: 45%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 17px;
+}
+.add {
+background-color: #91c83c;
+}
+.clear {
+  background-color: #91c83c;
+}
+input {
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  background-color: #fff3b6;
+  color: black;
+  border-radius: 10px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+}
